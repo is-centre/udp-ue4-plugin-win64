@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="85.913048mm"
+   height="85.909027mm"
+   viewBox="0 0 85.913048 85.909027"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="udp.svg"
+   inkscape:export-filename="C:\Users\Alex\Desktop\udp.png"
+   inkscape:export-xdpi="37.842915"
+   inkscape:export-ydpi="37.842915">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="99.302006"
+     inkscape:cy="112.12082"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5"
+     inkscape:window-width="1245"
+     inkscape:window-height="913"
+     inkscape:window-x="1956"
+     inkscape:window-y="93"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-66.467579,-106.63477)">
+    <ellipse
+       ry="37.954514"
+       rx="37.956524"
+       cy="149.58928"
+       cx="109.4241"
+       id="path3794"
+       style="color:#000000;fill:#808080;stroke-width:0.24730864" />
+    <g
+       id="g3885"
+       style="stroke:#ffffff"
+       transform="matrix(0.26458333,0,0,0.26458333,26.886852,13.844256)">
+      <ellipse
+         ry="102.85714"
+         rx="104.28571"
+         cy="483.79074"
+         cx="318.57144"
+         id="path2816"
+         style="color:#000000;fill:none;stroke:#ffffff;stroke-width:14.99199963;stroke-linecap:round"
+         transform="matrix(0.94025,0,0,0.92745,12.409,42.957)" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3592"
+         sodipodi:nodetypes="cc"
+         style="fill:none;stroke:#ffffff;stroke-width:14"
+         d="M 230,442.36 H 398" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3592-2"
+         sodipodi:nodetypes="cc"
+         style="fill:none;stroke:#ffffff;stroke-width:14"
+         d="M 228,538.86 H 400" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3592-2-5"
+         sodipodi:nodetypes="cc"
+         style="fill:none;stroke:#ffffff;stroke-width:14"
+         d="M 218,491.36 H 406" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3592-4-4-3"
+         sodipodi:nodetypes="cc"
+         style="fill:none;stroke:#ffffff;stroke-width:14"
+         d="m 310.25,583.11 v -184" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3592-4-4-3-0"
+         sodipodi:nodetypes="cc"
+         style="fill:none;stroke:#ffffff;stroke-width:14"
+         d="M 310.25,583.11 C 250,562.36 240,432.36 310.25,399.11" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3592-4-4-3-8"
+         sodipodi:nodetypes="cc"
+         style="fill:none;stroke:#ffffff;stroke-width:14"
+         d="m 310.25,583.11 c 69.75,-30.75 69.75,-150.75 0,-184" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:13.81674004px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="93.997429"
+       y="182.90103"
+       id="text4536"><tspan
+         sodipodi:role="line"
+         id="tspan4534"
+         x="93.997429"
+         y="182.90103"
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:Comme;-inkscape-font-specification:'Comme Heavy';fill:#ffffff;stroke-width:0.26458332px">UDP</tspan></text>
+  </g>
+</svg>

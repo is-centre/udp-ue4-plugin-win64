@@ -1,0 +1,25 @@
+{
+	"FileVersion" : 3,
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"FriendlyName" : "UDPCommunication",
+	"Description" : "Simple UDP communication",
+	"Category" : "Messaging",
+	"CreatedBy" : "AT",
+	"CreatedByURL" : "https://atdesign.ee/",
+	"DocsURL" : "",
+	"MarketplaceURL" : "",
+	"SupportURL" : "",
+	"CanContainContent" : true,
+	"IsBetaVersion" : true,
+	"Installed" : true,
+	"RequiresBuildPlatform" : false,
+	"Modules" :
+	[
+		{
+			"Name" : "UDPCommunication",
+			"Type" : "Runtime",
+			"LoadingPhase" : "Default"
+		}
+	]
+}
