@@ -4,6 +4,8 @@ UDPCommunication is a plugin for UE4 that implements simple UDP communication. I
 
 In Alpha Control Lab (https://a-lab.ee/) and Re:creation VR&AR Lab (https://recreation.ee/) the plugin is used primarily for real-time communication with MATLAB/Simulink software.
 
+Application example: https://recreation.ee/r/about/2018-11-ut/02/
+
 ## Installation and usage ##
 See this video: https://www.youtube.com/watch?v=Avj8T6RGyPo
 
