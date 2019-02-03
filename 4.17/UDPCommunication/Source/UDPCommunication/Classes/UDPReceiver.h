@@ -12,6 +12,7 @@ class UDPCOMMUNICATION_API AUDPReceiver : public AActor
 public:
 	FUDPData MyData;
 	bool UpdateInterest = true;
+	bool got_new_data = false;
 
 public:
 	UFUNCTION(BlueprintImplementableEvent, Category = "UDPCommunication")
@@ -21,11 +22,14 @@ public:
 	FSocket* ListenSocket;
 	FUdpSocketReceiver* Receiver = nullptr;
 	void Recv(const FArrayReaderPtr& ArrayReaderPtr, const FIPv4Endpoint& EndPt);
-	virtual void AUDPReceiver::Archive(const FArrayReaderPtr & ArrayReaderPtr);
+	virtual void Archive(const FArrayReaderPtr & ArrayReaderPtr);
 	virtual void UpdateReceiverData(FUDPData data);
 	
 	UFUNCTION(BlueprintCallable, Category = "UDPCommunication")
 		FUDPData GetData();
+	
+	UFUNCTION(BlueprintCallable, Category = "UDPCommunication")
+		bool IsNewDataReady();
 	
 	UFUNCTION(BlueprintCallable, Category = "UDPCommunication")
 		bool StartUDPReceiver(const FString& SocketName,

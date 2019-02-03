@@ -12,6 +12,8 @@ void AUDPReceiver::Recv(const FArrayReaderPtr & ArrayReaderPtr, const FIPv4Endpo
 		UE_LOG(LogTemp, Warning, TEXT("Cannot read array, nullptr returned."));
 		return;
 	}
+	
+	got_new_data = true;
 
 	if (UpdateInterest)
 		Archive(ArrayReaderPtr);
@@ -68,6 +70,7 @@ void AUDPReceiver::UpdateReceiverData(FUDPData data)
 FUDPData AUDPReceiver::GetData()
 {
 	UpdateInterest = true;	// Ready for new data
+	got_new_data = false;
 	return MyData;
 }
 

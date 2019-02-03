@@ -13,6 +13,8 @@ void AUDPReceiver::Recv(const FArrayReaderPtr & ArrayReaderPtr, const FIPv4Endpo
 		return;
 	}
 
+	got_new_data = true;
+
 	if (UpdateInterest)
 		Archive(ArrayReaderPtr);
 }
@@ -68,5 +70,10 @@ void AUDPReceiver::UpdateReceiverData(FUDPData data)
 FUDPData AUDPReceiver::GetData()
 {
 	UpdateInterest = true;	// Ready for new data
+	got_new_data = false;
 	return MyData;
+}
+
+bool AUDPReceiver::IsNewDataReady() {
+	return got_new_data;
 }
