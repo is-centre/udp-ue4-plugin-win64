@@ -12,6 +12,7 @@ class UDPCOMMUNICATION_API AUDPReceiver : public AActor
 public:
 	FUDPData MyData;
 	bool UpdateInterest = true;
+	bool got_new_data = false;
 
 public:
 	UFUNCTION(BlueprintImplementableEvent, Category = "UDPCommunication")
@@ -26,6 +27,9 @@ public:
 	
 	UFUNCTION(BlueprintCallable, Category = "UDPCommunication")
 		FUDPData GetData();
+		
+	UFUNCTION(BlueprintCallable, Category = "UDPCommunication")
+		bool IsNewDataReady();
 	
 	UFUNCTION(BlueprintCallable, Category = "UDPCommunication")
 		bool StartUDPReceiver(const FString& SocketName,

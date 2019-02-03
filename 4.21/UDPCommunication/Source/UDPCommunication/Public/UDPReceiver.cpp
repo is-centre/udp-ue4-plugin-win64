@@ -70,3 +70,7 @@ FUDPData AUDPReceiver::GetData()
 	UpdateInterest = true;	// Ready for new data
 	return MyData;
 }
+
+bool AUDPReceiver::IsNewDataReady() {
+	return got_new_data;
+}
