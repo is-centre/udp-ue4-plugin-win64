@@ -32,4 +32,4 @@ Original code: UE4 user Rama (see https://wiki.unrealengine.com/UDP_Socket_Sende
 
 Update for real-time communication: Ralf Anari, TalTech University
 
-Plugin format and packaging: Aleksei Tepljakov, TalTech University
+Plugin format, packaging, and further updates: Aleksei Tepljakov, TalTech University
